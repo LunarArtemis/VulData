@@ -1,0 +1,1 @@
+int is_port(pointer p)     { return (type(p)==T_PORT); }

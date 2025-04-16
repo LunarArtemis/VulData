@@ -1,0 +1,1 @@
+INTERFACE  gunichar charvalue(pointer p)  { return (gunichar)ivalue_unchecked(p); }

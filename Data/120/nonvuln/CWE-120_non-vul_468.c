@@ -1,0 +1,1 @@
+static INLINE int Cisalpha(gunichar c) { return g_unichar_isalpha(c); }

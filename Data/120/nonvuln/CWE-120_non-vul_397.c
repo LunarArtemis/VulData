@@ -1,0 +1,1 @@
+int is_foreign(pointer p)  { return (type(p)==T_FOREIGN); }

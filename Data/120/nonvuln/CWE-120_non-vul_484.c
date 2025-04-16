@@ -1,0 +1,1 @@
+int is_number(pointer p)    { return (type(p)==T_NUMBER); }

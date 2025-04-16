@@ -1,0 +1,11 @@
+FramebufferModel::FramebufferModel(QObject* parent)
+  : QObject(parent)
+  , m_pixelBuffer(nullptr)
+  , m_width(0)
+  , m_height(0)
+  , m_isImageLoaded(false)
+  , m_exposure(0)
+  , m_imageLoadingWatcher(new QFutureWatcher<void>(this))
+  , m_imageEditingWatcher(new QFutureWatcher<void>(this))
+  , m_pixelAspectRatio(1.f)
+{}

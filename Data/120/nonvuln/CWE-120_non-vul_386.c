@@ -1,0 +1,1 @@
+int is_environment(pointer p) { return (type(p)==T_ENVIRONMENT); }

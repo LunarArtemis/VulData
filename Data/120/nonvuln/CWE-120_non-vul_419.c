@@ -1,0 +1,1 @@
+char *string_value(pointer p) { return strvalue(p); }

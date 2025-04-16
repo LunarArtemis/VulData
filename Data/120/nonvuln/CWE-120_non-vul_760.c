@@ -1,0 +1,1 @@
+const char* format_name(void) const override { return "ico"; }

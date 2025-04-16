@@ -1,0 +1,1 @@
+void setimmutable(pointer p) { typeflag(p) |= T_IMMUTABLE; }

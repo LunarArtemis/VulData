@@ -1,0 +1,1 @@
+sal_uInt32 GetObjTime( sal_uInt16 index ) { return m_TimeTable[index-1]; }

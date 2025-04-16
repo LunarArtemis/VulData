@@ -1,0 +1,1 @@
+int is_string(pointer p)     { return (type(p)==T_STRING); }

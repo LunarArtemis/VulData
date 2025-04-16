@@ -1,0 +1,1 @@
+static INLINE int Cislower(gunichar c) { return g_unichar_islower(c); }

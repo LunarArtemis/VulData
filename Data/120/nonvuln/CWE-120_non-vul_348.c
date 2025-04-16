@@ -1,0 +1,1 @@
+pointer closure_code(pointer p)   { return car(p); }

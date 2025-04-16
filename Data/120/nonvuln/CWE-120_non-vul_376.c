@@ -1,0 +1,1 @@
+int is_vector(pointer p)    { return (type(p)==T_VECTOR); }

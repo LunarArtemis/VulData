@@ -1,0 +1,1 @@
+char *syntaxname(pointer p) { return strvalue(car(p)); }

@@ -1,0 +1,1 @@
+int is_promise(pointer p)  { return (type(p)==T_PROMISE); }

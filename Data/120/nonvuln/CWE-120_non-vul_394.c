@@ -1,0 +1,1 @@
+int is_immutable(pointer p) { return (typeflag(p)&T_IMMUTABLE); }

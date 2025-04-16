@@ -1,0 +1,1 @@
+static int is_any(pointer p) { return 1;}

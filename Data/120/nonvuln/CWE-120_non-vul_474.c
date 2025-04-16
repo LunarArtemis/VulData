@@ -1,0 +1,1 @@
+static INLINE int Cisspace(gunichar c) { return g_unichar_isspace(c); }

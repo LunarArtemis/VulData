@@ -1,0 +1,1 @@
+static FontViewBase *FVAny(void) { return (FontViewBase *) fv_list; }

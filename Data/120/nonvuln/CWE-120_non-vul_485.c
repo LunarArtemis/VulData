@@ -1,0 +1,1 @@
+int is_closure(pointer p)  { return (type(p)==T_CLOSURE); }

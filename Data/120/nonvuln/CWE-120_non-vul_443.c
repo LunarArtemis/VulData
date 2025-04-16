@@ -1,0 +1,1 @@
+int is_continuation(pointer p)    { return (type(p)==T_CONTINUATION); }

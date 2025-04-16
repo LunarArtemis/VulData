@@ -1,0 +1,1 @@
+int is_macro(pointer p)    { return (type(p)==T_MACRO); }

@@ -1,0 +1,1 @@
+INTERFACE pointer set_car(pointer p, pointer q) { return car(p)=q; }

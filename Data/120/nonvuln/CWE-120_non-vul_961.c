@@ -1,0 +1,43 @@
+static void dmar_unit_show_capability(struct dmar_drhd_rt *dmar_unit)
+{
+	pr_info("dmar unit[0x%x]", dmar_unit->drhd->reg_base_addr);
+	pr_info("\tNumDomain:%d", iommu_cap_ndoms(dmar_unit->cap));
+	pr_info("\tAdvancedFaultLogging:%d", iommu_cap_afl(dmar_unit->cap));
+	pr_info("\tRequiredWBFlush:%d", iommu_cap_rwbf(dmar_unit->cap));
+	pr_info("\tProtectedLowMemRegion:%d", iommu_cap_plmr(dmar_unit->cap));
+	pr_info("\tProtectedHighMemRegion:%d", iommu_cap_phmr(dmar_unit->cap));
+	pr_info("\tCachingMode:%d", iommu_cap_caching_mode(dmar_unit->cap));
+	pr_info("\tSAGAW:0x%x", iommu_cap_sagaw(dmar_unit->cap));
+	pr_info("\tMGAW:%d", iommu_cap_mgaw(dmar_unit->cap));
+	pr_info("\tZeroLenRead:%d", iommu_cap_zlr(dmar_unit->cap));
+	pr_info("\tLargePageSupport:0x%x", iommu_cap_super_page_val(dmar_unit->cap));
+	pr_info("\tPageSelectiveInvalidation:%d", iommu_cap_pgsel_inv(dmar_unit->cap));
+	pr_info("\tPageSelectInvalidation:%d", iommu_cap_pgsel_inv(dmar_unit->cap));
+	pr_info("\tNumOfFaultRecordingReg:%d", iommu_cap_num_fault_regs(dmar_unit->cap));
+	pr_info("\tMAMV:0x%x", iommu_cap_max_amask_val(dmar_unit->cap));
+	pr_info("\tWriteDraining:%d", iommu_cap_write_drain(dmar_unit->cap));
+	pr_info("\tReadDraining:%d", iommu_cap_read_drain(dmar_unit->cap));
+	pr_info("\tPostInterrupts:%d\n", iommu_cap_pi(dmar_unit->cap));
+	pr_info("\tPage-walk Coherency:%d", iommu_ecap_c(dmar_unit->ecap));
+	pr_info("\tQueuedInvalidation:%d", iommu_ecap_qi(dmar_unit->ecap));
+	pr_info("\tDeviceTLB:%d", iommu_ecap_dt(dmar_unit->ecap));
+	pr_info("\tInterruptRemapping:%d", iommu_ecap_ir(dmar_unit->ecap));
+	pr_info("\tExtendedInterruptMode:%d", iommu_ecap_eim(dmar_unit->ecap));
+	pr_info("\tPassThrough:%d", iommu_ecap_pt(dmar_unit->ecap));
+	pr_info("\tSnoopControl:%d", iommu_ecap_sc(dmar_unit->ecap));
+	pr_info("\tIOTLB RegOffset:0x%x", iommu_ecap_iro(dmar_unit->ecap));
+	pr_info("\tMHMV:0x%x", iommu_ecap_mhmv(dmar_unit->ecap));
+	pr_info("\tECS:%d", iommu_ecap_ecs(dmar_unit->ecap));
+	pr_info("\tMTS:%d", iommu_ecap_mts(dmar_unit->ecap));
+	pr_info("\tNEST:%d", iommu_ecap_nest(dmar_unit->ecap));
+	pr_info("\tDIS:%d", iommu_ecap_dis(dmar_unit->ecap));
+	pr_info("\tPRS:%d", iommu_ecap_prs(dmar_unit->ecap));
+	pr_info("\tERS:%d", iommu_ecap_ers(dmar_unit->ecap));
+	pr_info("\tSRS:%d", iommu_ecap_srs(dmar_unit->ecap));
+	pr_info("\tNWFS:%d", iommu_ecap_nwfs(dmar_unit->ecap));
+	pr_info("\tEAFS:%d", iommu_ecap_eafs(dmar_unit->ecap));
+	pr_info("\tPSS:0x%x", iommu_ecap_pss(dmar_unit->ecap));
+	pr_info("\tPASID:%d", iommu_ecap_pasid(dmar_unit->ecap));
+	pr_info("\tDIT:%d", iommu_ecap_dit(dmar_unit->ecap));
+	pr_info("\tPDS:%d\n", iommu_ecap_pds(dmar_unit->ecap));
+}

@@ -1,0 +1,1 @@
+pointer closure_env(pointer p)    { return cdr(p); }

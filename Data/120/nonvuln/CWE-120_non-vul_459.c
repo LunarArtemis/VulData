@@ -1,0 +1,1 @@
+int is_symbol(pointer p)   { return (type(p)==T_SYMBOL); }

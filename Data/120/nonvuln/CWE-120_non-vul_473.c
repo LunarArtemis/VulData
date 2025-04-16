@@ -1,0 +1,1 @@
+int is_proc(pointer p)     { return (type(p)==T_PROC); }

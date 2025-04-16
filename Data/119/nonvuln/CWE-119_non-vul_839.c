@@ -1,0 +1,3 @@
+void FontViewFinishNonStatic() {
+    FontViewFinish();
+}

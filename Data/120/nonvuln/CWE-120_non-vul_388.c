@@ -1,0 +1,1 @@
+char *symname(pointer p)   { return strvalue(car(p)); }

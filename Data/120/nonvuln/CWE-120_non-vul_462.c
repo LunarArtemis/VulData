@@ -1,0 +1,1 @@
+INTERFACE pointer set_cdr(pointer p, pointer q) { return cdr(p)=q; }

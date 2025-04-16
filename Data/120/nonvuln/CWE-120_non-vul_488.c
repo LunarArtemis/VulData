@@ -1,0 +1,1 @@
+int is_character(pointer p) { return (type(p)==T_CHARACTER); }

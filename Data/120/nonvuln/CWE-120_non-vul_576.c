@@ -1,0 +1,1 @@
+inline bool is_transparent(rgba_t c) { return c.a < 0x60; }

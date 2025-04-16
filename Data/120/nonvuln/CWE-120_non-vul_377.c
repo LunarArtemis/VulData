@@ -1,0 +1,1 @@
+int hasprop(pointer p)     { return (typeflag(p)&T_SYMBOL); }

@@ -1,0 +1,1 @@
+INTERFACE pointer pair_car(pointer p)   { return car(p); }

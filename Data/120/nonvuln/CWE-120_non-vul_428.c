@@ -1,0 +1,1 @@
+int is_pair(pointer p)     { return (type(p)==T_PAIR); }

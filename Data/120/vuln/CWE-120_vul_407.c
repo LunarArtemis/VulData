@@ -1,0 +1,1 @@
+~VC1Unit() { delete m_nalBuffer; }

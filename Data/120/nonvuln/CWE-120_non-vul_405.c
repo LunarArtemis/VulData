@@ -1,0 +1,1 @@
+INLINE num nvalue(pointer p)       { return ((p)->_object._number); }

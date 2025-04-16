@@ -1,0 +1,1 @@
+static INLINE int Cisupper(gunichar c) { return g_unichar_isupper(c); }
